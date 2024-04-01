@@ -1,0 +1,22 @@
+{
+  "name": "devburguer-api",
+  "version": "1.0.0",
+  "description": "DevBurguer API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start:watch": "nodemon --watch src --exec sucrase-node src/server.js"
+  },
+  "author": {
+    "name": "Stefanie Silva",
+    "url": "https://github.com/stefanieSilvaOliveira"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "sucrase": "^3.35.0"
+  }
+}
